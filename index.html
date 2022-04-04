@@ -1,0 +1,51 @@
+<html>
+<head><tile>
+</tile>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><section>
+    <h1>Planetas</h1>
+    <img  id="j"src="jupiter.png">
+    <h3 id="name">Jupiter</h3>
+    <br><br>
+    <button onclick="refrescar();"">Siguiente</button></section>
+    <script>
+       var planets=["Marte","Mercurio","Tierra","Neptuno","Saturno","Urano","Venus"];
+       
+    var imag=["","marte.png","mercurio.png","tierra'.png","neptuno.png","saturno.png","urano.png","venus.png"];
+    
+
+
+var length1=planets.length;
+console.log(length1);
+
+
+var i=0; 
+function refrescar(){
+   
+document.getElementById("name").innerHTML=planets[i];i++
+;
+document.getElementById("j").src=imag[i];i++;
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+}
+
+
+
+
+
+    </script>
+</body>
+
+</html>
